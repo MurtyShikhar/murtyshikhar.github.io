@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
     "I'm a final year <a href='https://www.stanford.edu'>PhD candidate</a> working on Deep Learning and NLP. My research focuses on building LLMs that can generalize out-of-distribution, either through structured inductive biases, or by interacting with their environments.\n\nThese days, I'm working on building robust LLM assistants that can translate language commands to actions on digital environments like web browsers.",
   email: "js[lastname]@stanford.edu",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/images/me.jpg",
   googleScholarUrl: "https://scholar.google.ca/citations?user=ubAcojQAAAAJ&hl=en",
   githubUsername: "MurtyShikhar",
   twitterUsername: "ShikharMurty",
