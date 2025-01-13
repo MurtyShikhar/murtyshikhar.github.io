@@ -82,6 +82,18 @@ export default function Home() {
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           Representative Works
                         </h2>
+                        <p className="text-sm text-zinc-600 mb-12">
+                          Please check out my{" "}
+                          <a
+                            href={aboutMe.googleScholarUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-zinc-900 underline hover:text-zinc-600"
+                          >
+                            Google Scholar
+                          </a>{" "}
+                          for all papers.
+                        </p>
                         <div className="space-y-12">
                           {publicationData.map((publication, index) => (
                             <div key={index}>
