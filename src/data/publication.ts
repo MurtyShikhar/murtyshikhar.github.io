@@ -21,7 +21,8 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2410.02907",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "An unsupervised approach for training LLM web-agents, through open-ended exploration of the internet"
+    tldr: "An unsupervised approach for training LLM web-agents, through open-ended exploration of the internet",
+    codeUrl: "https://github.com/MurtyShikhar/NNetnav/tree/main"
     //imageUrl:
     //"https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
