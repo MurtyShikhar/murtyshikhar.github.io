@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "Stanford University",
   // Note that links work in the description
   description:
-    "I'm a final year <a href='https://www.stanford.edu'>PhD candidate</a> working on Deep Learning and NLP. My research focuses on building LLMs that can generalize out-of-distribution, either through structured inductive biases, or by interacting with their environments.\n\nThese days, I'm working on building robust LLM assistants that can translate language commands to actions on digital environments like web browsers.",
+    "I'm a final year <a href='https://www.cs.stanford.edu'>CS PhD candidate</a> working on Deep Learning and NLP. My advisor is <a href='https://nlp.stanford.edu/~manning/'>Prof. Chris Manning</a>. My research focuses on building LLMs that can generalize out-of-distribution, either through structured inductive biases, or by interacting with their environments.\n\nThese days, I'm working on building robust LLM assistants that can translate language commands to actions on digital environments like web browsers.",
   email: "js[lastname]@stanford.edu",
   imageUrl:
     "/images/me.jpg",
