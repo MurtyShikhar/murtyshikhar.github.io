@@ -7,10 +7,15 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
-  /*{
+  {
+    date: "Dec. 2024",
+    title: "System-2 Generalization at Scale",
+    description: "We organized a workshop at NeurIPS 2024 on 'System-2 Generalization at Scale' with talks from Josh Tenenbaum, Melanie Mitchell, and others.",
+    link: "https://s2r-at-scale-workshop.github.io"
+  },
+  {
     date: "March 2024",
-    title: "Paper accepted at ICML 2024",
-    description: "Our work on causal discovery in time series data has been accepted at ICML 2024.",
-    link: "https://icml.cc/",
-  }*/
+    title: "Invited Talks",
+    description: "Talks in NYC (NYU / Columbia / Cornell) on 'Improving the Structure and Interpretation of Language in Modern Sequence Models'",
+  }
 ];

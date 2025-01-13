@@ -10,21 +10,28 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
+    date: "Oct 2024 to Dec 2024",
+    title: "Part-time visitor",
+    company: "ServiceNow Research",
+    description: "Post-training for LLM browser agents",
+    advisor: "Alexandre Lacoste, Dzmitry Bahdanau",
+    companyUrl: "https://www.servicenow.com/",
+  },
+  {
+    date: "June 2023 to Feb 2024",
     title: "Research Intern",
     company: "DeepMind",
-    description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+    description: "Unsupervised browser control with LLMs",
+    advisor: "Mandar Joshi, Kenton Lee",
+    companyUrl: "http://deepmind.google/",
   },
   {
     date: "Summer 2022",
     title: "Research Intern",
-    company: "Google Research",
+    company: "Microsoft Research",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "Fixing model bugs with language feedback",
+    advisor: "Marco Tulio Ribiero, Scott Lundberg",
+    companyUrl: "https://www.microsoft.com/en-us/research/",
   },
 ];
