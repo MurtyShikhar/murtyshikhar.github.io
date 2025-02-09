@@ -24,9 +24,9 @@ export const newsData: News[] = [
     description: "Invited to lead a session on 'Intelligent Agents' at Foundation Capital AI Unconference, 2024 in San Francisco",
     link: "https://foundationcapital.com/ai-unconference/"
   },
-  // {
-  //   date: "March 2024",
-  //   title: "Invited Talks",
-  //   description: "Talks in NYC (NYU / Columbia / Cornell) on 'Improving the Structure and Interpretation of Language in Modern Sequence Models'",
-  // }
+  {
+    date: "March 2024",
+    title: "Invited Talks",
+    description: "Talks in NYC (NYU / Columbia / Cornell) on 'Improving the Structure and Interpretation of Language in Modern Sequence Models'",
+  }
 ];
