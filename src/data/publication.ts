@@ -15,7 +15,7 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
-    year: "2024",
+    year: "2025",
     conference: "Pre-print",
     title: "NNetNav: Unsupervised Learning of Browser Agents Through Environment Interaction in the Wild",
     authors: "Shikhar Murty, Hao Zhu, Dzmitry Bahdanau, Christopher D. Manning",

@@ -50,7 +50,7 @@ export default function Home() {
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           News
                         </h2>
-                        <div className="space-y-12">
+                        <div className="space-y-8">
                           {newsData.map((news, index) => (
                             <div key={index}>
                               <NewsEntry news={news} />
@@ -67,7 +67,7 @@ export default function Home() {
                         <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
                           Education
                         </h2>
-                        <div className="space-y-12">
+                        <div className="space-y-8">
                           {educationData.map((education, index) => (
                             <EducationEntry key={index} education={education} />
                           ))}
@@ -94,7 +94,7 @@ export default function Home() {
                           </a>{" "}
                           for all papers.
                         </p>
-                        <div className="space-y-12">
+                        <div className="space-y-8">
                           {publicationData.map((publication, index) => (
                             <div key={index}>
                               <PublicationEntry publication={publication} />

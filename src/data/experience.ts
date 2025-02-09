@@ -22,7 +22,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "DeepMind",
     description: "Unsupervised browser control with LLMs",
-    advisor: "Mandar Joshi, Kenton Lee",
+    advisor: "Mandar Joshi, Kenton Lee, Pete Shaw",
     companyUrl: "http://deepmind.google/",
   },
   {
