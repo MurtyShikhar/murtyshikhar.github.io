@@ -4,6 +4,7 @@ export interface Publication {
   title: string;
   authors: string;
   paperUrl?: string;
+  webURL?: string;
   codeUrl?: string;
   bibtex?: string;
   tldr?: string;
@@ -16,18 +17,18 @@ export const publicationData: Publication[] = [
   {
     year: "2024",
     conference: "Pre-print",
-    title: "NNetscape Navigator: Complex Demonstrations for Web Agents without a Demonstrator",
-    authors: "Shikhar Murty, Dzmitry Bahdanau, Christopher D. Manning",
+    title: "NNetNav: Unsupervised Learning of Browser Agents Through Environment Interaction in the Wild",
+    authors: "Shikhar Murty, Hao Zhu, Dzmitry Bahdanau, Christopher D. Manning",
     paperUrl: "https://arxiv.org/abs/2410.02907",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "An unsupervised approach for training LLM web-agents, through open-ended exploration of the internet",
-    codeUrl: "https://github.com/MurtyShikhar/NNetnav/tree/main"
+    tldr: "An unsupervised approach for training LLM web-agents, through open-ended exploration of live websites",
+    codeUrl: "https://github.com/MurtyShikhar/NNetnav/tree/main",
+    webURL: "https://nnetnav.dev/",
     //imageUrl:
     //"https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
   },
   {
     year: "2024",
@@ -52,6 +53,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://aclanthology.org/2023.emnlp-main.195/",
     tldr: "A stack-augmented self-attention layer that can be trained in parallel, that helps transformers generalize better on tasks that require recursive reasoning.",
     codeUrl: "https://github.com/MurtyShikhar/Pushdown-Layers",
+    webURL: "https://shikharmurty.com/pushdown"
     //imageUrl:
     //"https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
