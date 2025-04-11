@@ -8,6 +8,12 @@ export interface News {
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
   {
+    date: "March. 2025",
+    title: "LLM Agents Workshop at ACL 2025",
+    description: "I am a co-organizer for REALM (Research on Agent Language Models) at ACL 2025.",
+    link: "https://realm-workshop.github.io"
+  },
+  {
     date: "Feb. 2025",
     title: "Talk circuit",
     description: "Talking about Building the learning-from-interaction pipeline for LLMs at Together AI, MIT, Harvard, and Brown.",
