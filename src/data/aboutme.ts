@@ -19,12 +19,12 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Shikhar J. Murty",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  title: "Senior Research Scientist",
+  institution: "Google DeepMind",
   // Note that links work in the description
   description:
-    "I'm a final year <a href='https://www.cs.stanford.edu'>CS PhD candidate</a> working on Deep Learning and NLP. My advisor is <a href='https://nlp.stanford.edu/~manning/'>Prof. Chris Manning</a>. <br><br>My research focuses on building LLMs that can generalize out-of-distribution, either through structured inductive biases, or by interacting with their environments.<br><br>These days, I'm working on robust LLM assistants that can translate user instructions to action sequences on digital environments like web browsers.",
-  email: "js[lastname]@stanford.edu",
+    "I'm a Senior Research Scientist at <a href='https://deepmind.google/'>Google DeepMind</a> working on <a href='https://deepmind.google/technologies/gemini/'>Gemini</a>. My research focuses on long-horizon RL for multi-step tool use and computer use.<br><br>I completed my CS PhD at <a href='https://www.cs.stanford.edu'>Stanford University</a> in 2025, advised by <a href='https://nlp.stanford.edu/~manning/'>Prof. Chris Manning</a>, where I worked on building LLMs that can generalize out-of-distribution through structured inductive biases and environment interaction.",
+  email: "smurty@google.com",
   imageUrl:
     "/images/me.jpg",
   googleScholarUrl: "https://scholar.google.ca/citations?user=ubAcojQAAAAJ&hl=en",
@@ -32,7 +32,7 @@ export const aboutMe: AboutMe = {
   twitterUsername: "ShikharMurty",
   blogUrl: "https://",
   cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+  institutionUrl: "https://deepmind.google/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };
